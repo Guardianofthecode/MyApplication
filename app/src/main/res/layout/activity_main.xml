@@ -43,12 +43,31 @@
         android:layout_height="wrap_content"
         android:text="Add" />
 
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtract" />
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divide" />
+
     <EditText
         android:id="@+id/edTxt_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:editable="false"
-        android:ems="10"
+        android:ems="20"
         android:hint="Result"
         android:inputType="numberDecimal" />
 
